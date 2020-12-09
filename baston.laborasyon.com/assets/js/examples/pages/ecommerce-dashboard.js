@@ -77,7 +77,7 @@ $(function () {
             },
             series: [{
                 name: 'Total',
-                data: [184, 255, 257, 156, 180, 158, 200]
+                data: [10, 0, 0, 9,8,6]
             }],
             colors: [colors.primary, colors.info],
             plotOptions: {
@@ -117,6 +117,7 @@ $(function () {
         var chart = new ApexCharts(document.querySelector("#sales"), options);
 
         chart.render();
+        
     }
 
     function monthlySales() {
